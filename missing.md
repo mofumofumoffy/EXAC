@@ -1,7 +1,7 @@
 ## mods
 [Advanced Peripherals 1.20.1 0.7.44r](https://modrinth.com/mod/advancedperipherals/version/1.20.1-0.7.44r)
 [CC:Link 5.0.0-build1](https://modrinth.com/mod/cc-link/version/5.0.0-build1)
-[CC:Tweaked 1.115.1](https://modrinth.com/mod/cc-tweaked/version/FgcxzPya)
+[CC:Tweaked 1.115.1](https://modrinth.com/mod/cc-tweaked/version/1.115.1)
 [Fantasy Ending 1.20.1-2.7.19c](https://www.mcmod.cn/download/16674.html)
 [Ending Library 1.20.1-1.3.2](https://www.mcmod.cn/download/20321.html)
 [Mekanism:More Config 1.20.1-1.7](https://github.com/tau34/MekanismMoreConfig/releases/tag/1.20.1-1.7)
