@@ -1,0 +1,9 @@
+#ProudSoul cost when casting magic with SlashBlade's projectile.
+#Range: > 0
+ProudSoulConsume = 30
+#Maximum value for natural ProudSoul recovery (Refine * this value).
+#Range: > 0
+ProudSoulLimitByRefine = 200
+#Slots for the spell book. (Do not edit)
+SpellBookSlots = ["ars_spell_book"]
+

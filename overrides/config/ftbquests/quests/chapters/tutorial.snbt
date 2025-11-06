@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial"
+	group: ""
+	id: "2B43698BAF7508F7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "340F28996131BAF1"
+		rewards: [
+			{
+				id: "4251E33FEFED5E89"
+				item: "projectexpansion:transmutation_interface"
+				type: "item"
+			}
+			{
+				id: "0DDB3B5355744070"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+				}
+				type: "item"
+			}
+		]
+		tasks: [{
+			id: "11DC0D8DF25AD22E"
+			title: "Wouldn't you like to be \"INCOMPARABLE\"?"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Tutorial"
+}

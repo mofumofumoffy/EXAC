@@ -1,0 +1,7 @@
+#Energy capacity of Automatic Smith Table
+#Range: > 0
+automaticSmithTableEnergyCapacity = 10000
+#Energy usage per tick of Automatic Smith Table
+#Range: > 0
+automaticSmithTableEnergyUsage = 100
+

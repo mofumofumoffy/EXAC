@@ -1,0 +1,144 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "chapter_1"
+	group: "7A40A5A38565628B"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:grass_block"
+	id: "2B01771BCEA4CD12"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6A9605570E0D5B17"
+				"48439B0CF97F6518"
+			]
+			id: "4F4A2D71F819359F"
+			rewards: [{
+				id: "7F332E84796DB981"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7EFFF417FFA8EC2C"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "321BA1E596CC4CD4"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B43698BAF7508F7"]
+			id: "6A9605570E0D5B17"
+			rewards: [{
+				id: "11F56C57D0FFBFC6"
+				item: "botanypots:black_concrete_hopper_botany_pot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C86266FCE9A2154"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B43698BAF7508F7"]
+			id: "48439B0CF97F6518"
+			rewards: [{
+				id: "606387A125A9EBA6"
+				item: "alchemical_power:t0_panakeia"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65AFE887F7917F30"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:normal_stone"
+					}
+				}
+				title: "Any #forge:normal_stone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48439B0CF97F6518"]
+			id: "49F04992026D5047"
+			optional: true
+			rewards: [
+				{
+					id: "2147A439CFB8B527"
+					item: "irons_spellbooks:inscription_table"
+					type: "item"
+				}
+				{
+					id: "4DA53B80DB87C030"
+					item: "irons_spellbooks:scroll_forge"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "3782C46EB74FCE9F"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4F4A2D71F819359F"]
+			id: "5E0084C0B5A68A00"
+			tasks: [{
+				id: "792B43B458A45FB2"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E0084C0B5A68A00"]
+			id: "01229D5430FD03AE"
+			tasks: [{
+				id: "4DDE3D6240AEA595"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01229D5430FD03AE"]
+			id: "118E1D6671165F58"
+			tasks: [{
+				id: "654DC3D69A9C4511"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+	]
+	title: "Chapter 1"
+}

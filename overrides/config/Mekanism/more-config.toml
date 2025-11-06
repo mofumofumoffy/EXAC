@@ -1,0 +1,207 @@
+
+#Gauge Dropper Settings
+[dropper]
+
+	#Gauge Dropper Capacity Settings
+	[dropper.capacity]
+		#Gauge Dropper Fluid Capacity(mB), default: 16000, max: 2147483647
+		#Range: > 0
+		dropperFluidCapacity = 16000
+		#Gauge Dropper Gas Capacity(mB), default: 16000, max: 9223372036854775807
+		#Range: 0 ~ 9223372036854775807
+		dropperGasCapacity = 16000
+		#Gauge Dropper Infusion Capacity(mB), default: 16000, max: 9223372036854775807
+		#Range: 0 ~ 9223372036854775807
+		dropperInfusionCapacity = 16000
+		#Gauge Dropper Pigment Capacity(mB), default: 16000, max: 9223372036854775807
+		#Range: 0 ~ 9223372036854775807
+		dropperPigmentCapacity = 16000
+		#Gauge Dropper Slurry Capacity(mB), default: 16000, max: 9223372036854775807
+		#Range: 0 ~ 9223372036854775807
+		dropperSlurryCapacity = 16000
+
+	#Gauge Dropper Transfer Rate Settings
+	[dropper.rate]
+		#Gauge Dropper Fluid Transfer Rate(mB), default: 256, max: 2147483647
+		#Range: > 0
+		dropperFluidRate = 256
+		#Gauge Dropper Gas Transfer Rate(mB), default: 256, max: 9223372036854775807
+		#Range: 0 ~ 9223372036854775807
+		dropperGasRate = 256
+		#Gauge Dropper Infusion Transfer Rate(mB), default: 256, max: 9223372036854775807
+		#Range: 0 ~ 9223372036854775807
+		dropperInfusionRate = 256
+		#Gauge Dropper Pigment Transfer Rate(mB), default: 256, max: 9223372036854775807
+		#Range: 0 ~ 9223372036854775807
+		dropperPigmentRate = 256
+		#Gauge Dropper Slurry Transfer Rate(mB), default: 256, max: 9223372036854775807
+		#Range: 0 ~ 9223372036854775807
+		dropperSlurryRate = 256
+
+#Max Unit Stacks Settings
+[unit_stacks]
+	#Max Energy Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	energyUnitStacks = 64
+	#Max Excavation Escalation Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	excavationUnitStacks = 64
+	#Max Attack Amplification Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	attackUnitStacks = 64
+	#Max Farming Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	farmingUnitStacks = 64
+	#Max Blasting Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	blastingUnitStacks = 64
+	#Max Electrolytic Breathing Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	elecBreathUnitStacks = 64
+	#Max Vision Enhancement Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	visionUnitStacks = 64
+	#Max Fortune Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	fortuneUnitStacks = 64
+	#Max Locomotive Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	locomotiveUnitStacks = 64
+	#Max Hydrostatic Repulsor Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	repulsorUnitStacks = 64
+	#Max Hydraulic Propulsion Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	propulsionUnitStacks = 64
+	#Max Magnetic Attraction Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	magneticUnitStacks = 64
+	#Max Solar Recharging Propulsion Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	solarUnitStacks = 64
+	#Max Geothermal Generator Unit Stacks. default: 8, min: 1, max: 64
+	#Range: 1 ~ 64
+	geothermalUnitStacks = 64
+	#Max Weapon Attack Amplification Unit (Mekanism: Weapons) Stacks. default: 4, min: 1, max: 64
+	#Range: 1 ~ 64
+	weaponUnitStacks = 4
+	#Max Draw Speed Unit (Mekanism: Weapons) Stacks. default: 4, min: 1, max: 64
+	#Range: 1 ~ 64
+	drawUnitStacks = 4
+
+#Misc Settings
+[misc]
+	#The ignition temperature of a fusion reactor. default: 1.0E8
+	#Range: 0.0 ~ 1.7976931348623157E308
+	fusionIgnitionTemp = 1.0E8
+	#Whether fusion reactor would be heated by lava
+	isFusionHeatedByLava = false
+	#The ticks Modification Station requires to install. default: 40
+	#Range: > 1
+	modificationSpeed = 20
+
+#Factory Processes Settings
+[factory]
+	#Basic Factory Processes. default: 3, min: 1, max: 2147483647
+	#Range: > 1
+	basicFactoryProcesses = 3
+	#Advanced Factory Processes. default: 5, min: 1, max: 2147483647
+	#Range: > 1
+	advancedFactoryProcesses = 5
+	#Elite Factory Processes. default: 7, min: 1, max: 2147483647
+	#Range: > 1
+	eliteFactoryProcesses = 7
+	#Ultimate Factory Processes. default: 9, min: 1, max: 2147483647
+	#Range: > 1
+	ultimateFactoryProcesses = 9
+
+#Ore Processing Settings
+[ore]
+	#Chemical Dissolution Output Multiplier of Quintupling Ore Processing. default: 5, min: 1, max: 7686143364045645
+	#Range: 1 ~ 7686143364045645
+	quintupling1stMult = 5
+	#Chemical Washing Output Multiplier of Quintupling Ore Processing. default: 1, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	quintupling2ndMult = 1
+	#Chemical Crystallizing Output Multiplier of Quintupling Ore Processing. default: 5, min: 1, max: 64
+	#Range: 1 ~ 64
+	quintupling3rdMult = 1
+
+#Machine Capacity Settings
+[machine_capacity]
+	#Antiprotonic Nucleosynthesizer Input Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	nucleosynthesizerInputCapacity = 10000
+	#Chemical Crystallizer Input Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	crystallizerInputCapacity = 10000
+	#Chemical Oxidizer Output Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	oxidizerOutputCapacity = 10000
+	#Chemical Dissolution Chamber Input Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	dissolutionInputCapacity = 10000
+	#Chemical Dissolution Chamber Output Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	dissolutionOutputCapacity = 10000
+	#Chemical Infuser Left Input Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	chemicalInfuserLeftCapacity = 10000
+	#Chemical Infuser Right Input Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	chemicalInfuserRightCapacity = 10000
+	#Chemical Infuser Output Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	chemicalInfuserOutputCapacity = 10000
+	#Chemical Washer Input Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	washerInputCapacity = 10000
+	#Chemical Washer Fluid Input Capacity. default: 10000, min: 1, max: 2147483647
+	#Range: > 1
+	washerFluidCapacity = 10000
+	#Chemical Washer Output Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	washerOutputCapacity = 10000
+	#Electric Pump Output Capacity. default: 10000, min: 1, max: 2147483647
+	#Range: > 1
+	pumpOutputCapacity = 10000
+	#Electrolytic Separator Input Capacity. default: 24000, min: 1, max: 2147483647
+	#Range: > 1
+	separatorInputCapacity = 24000
+	#Electrolytic Separator Left Output Capacity. default: 2400, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	separatorLeftCapacity = 2400
+	#Electrolytic Separator Right Output Capacity. default: 2400, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	separatorRightCapacity = 2400
+	#Fluidic Plenisher Input Capacity. default: 10000, min: 1, max: 2147483647
+	#Range: > 1
+	plenisherInputCapacity = 10000
+	#Isotopic Centrifuge Input Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	centrifugeInputCapacity = 10000
+	#Isotopic Centrifuge Output Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	centrifugeOutputCapacity = 10000
+	#Solar Neutron Activator Input Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	activatorInputCapacity = 10000
+	#Solar Neutron Activator Output Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	activatorOutputCapacity = 10000
+	#PRC Gas Input Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	prcGasInputCapacity = 10000
+	#PRC Fluid Input Capacity. default: 10000, min: 1, max: 2147483647
+	#Range: > 1
+	prcFluidCapacity = 10000
+	#PRC Gas Output Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	prcGasOutputCapacity = 10000
+	#Rotary Fluid Capacity. default: 10000, min: 1, max: 2147483647
+	#Range: > 1
+	rotaryFluidCapacity = 10000
+	#Rotary Gas Capacity. default: 10000, min: 1, max: 9223372036854775807
+	#Range: 1 ~ 9223372036854775807
+	rotaryGasCapacity = 10000
+

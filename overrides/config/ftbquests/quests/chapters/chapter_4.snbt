@@ -1,0 +1,50 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "chapter_4"
+	group: "7A40A5A38565628B"
+	id: "4EEF2950BB701FB4"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DA2422C27D30A3B"]
+			id: "164F05DA136FCBCD"
+			tasks: [{
+				id: "694807F468100A7B"
+				item: "fantasy_ending:wither_factor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["164F05DA136FCBCD"]
+			id: "446131C372F742B6"
+			tasks: [{
+				id: "29188BBF8F840689"
+				item: "goety_revelation:ascension_halo"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"446131C372F742B6"
+				"164F05DA136FCBCD"
+			]
+			id: "4F8D042D141BC06E"
+			shape: "diamond"
+			size: 8.0d
+			tasks: [{
+				id: "0902AB6ED5DD4641"
+				item: "hyperdaimc:game_orb"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+	title: "Chapter 4"
+}

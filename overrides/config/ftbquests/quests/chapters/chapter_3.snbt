@@ -1,0 +1,51 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "chapter_3"
+	group: "7A40A5A38565628B"
+	id: "0DA2422C27D30A3B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23406E580D548059"]
+			id: "44ED11C1CB014E7A"
+			shape: "gear"
+			tasks: [{
+				id: "328DE2DA1A2F4141"
+				item: "ticex:reconstruction_core"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"44ED11C1CB014E7A"
+				"2AFF53A8C6992805"
+			]
+			id: "4659D888908DFE47"
+			shape: "octagon"
+			size: 5.0d
+			tasks: [{
+				id: "1F98C485CE2D6AFD"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "2AFF53A8C6992805"
+			shape: "gear"
+			tasks: [{
+				id: "2E276D42ED519299"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+	title: "Chapter 3"
+}
