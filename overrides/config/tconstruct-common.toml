@@ -105,7 +105,7 @@
 	disableSideInventoryWhitelist = false
 	#If true, modifier crystals and creative slots can be applied to tools in the inventory on right click for operators in survival. If false, this only works for players in creative mode.
 	#This option makes testing of tools and modifiers easier, but may cause misleading assumptions about how these items will function for non-operators.
-	quickApplyToolModifiersSurvival = false
+	quickApplyToolModifiersSurvival = true
 	#If STACKTRACE, logs the stacktrace whenever a tool stack is created from a non-modifiable item. If WARNING (default), logs a shorter but more efficient error. If IGNORE, disables logging (useful for modpacks/players *after* they reported the issue). The stacktrace helps debug which mod is causing it, but is rather expensive on the chance they are doing it a lot.
 	#Allowed Values: STACKTRACE, WARNING, IGNORED
 	logInvalidToolStack = "WARNING"

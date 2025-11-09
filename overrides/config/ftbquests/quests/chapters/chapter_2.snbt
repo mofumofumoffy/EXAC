@@ -3,31 +3,166 @@
 	default_quest_shape: "square"
 	filename: "chapter_2"
 	group: "7A40A5A38565628B"
+	icon: "minecraft:nether_quartz_ore"
 	id: "23406E580D548059"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2B01771BCEA4CD12"]
-			id: "01A818A1F6EF7F3C"
-			tasks: [{
-				id: "6EE997B02DBF1F60"
-				item: "alchemical_power:t3_panakeia"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["01A818A1F6EF7F3C"]
 			id: "68CFA0F9C84712CA"
+			optional: true
+			shape: "circle"
 			tasks: [{
 				id: "0B90194DBC9F8F2F"
 				item: "apotheosis:rare_material"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E3398FB23F561B8"]
+			id: "31DD0EF886AC62F2"
+			tasks: [{
+				id: "015F6D678E6B96D5"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "7E3398FB23F561B8"
+			tasks: [{
+				id: "645F17EBC09D3658"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31DD0EF886AC62F2"]
+			id: "777706E8631EABF8"
+			tasks: [
+				{
+					id: "338D0257DC15DA9A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"ngemextboxmod:gem_cap": {
+								Gems: [
+									{
+										Count: 0b
+										id: "minecraft:air"
+									}
+									{
+										Count: 0b
+										id: "minecraft:air"
+									}
+									{
+										Count: 0b
+										id: "minecraft:air"
+									}
+								]
+							}
+						}
+						id: "projecte:gem_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "7599F45B1A227460"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"ngemextboxmod:gem_cap": {
+								Gems: [
+									{
+										Count: 0b
+										id: "minecraft:air"
+									}
+									{
+										Count: 0b
+										id: "minecraft:air"
+									}
+									{
+										Count: 0b
+										id: "minecraft:air"
+									}
+								]
+							}
+						}
+						id: "projecte:gem_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "3DBB52C4FE5B7517"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"ngemextboxmod:gem_cap": {
+								Gems: [
+									{
+										Count: 0b
+										id: "minecraft:air"
+									}
+									{
+										Count: 0b
+										id: "minecraft:air"
+									}
+									{
+										Count: 0b
+										id: "minecraft:air"
+									}
+								]
+							}
+						}
+						id: "projecte:gem_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "2DA77C30CA3A986F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"ngemextboxmod:gem_cap": {
+								Gems: [
+									{
+										Count: 0b
+										id: "minecraft:air"
+									}
+									{
+										Count: 0b
+										id: "minecraft:air"
+									}
+									{
+										Count: 0b
+										id: "minecraft:air"
+									}
+								]
+							}
+						}
+						id: "projecte:gem_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "5A1940DD4D86CB25"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_katar"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -3.0d
 		}
 	]
 	title: "Chapter 2"

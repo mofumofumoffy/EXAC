@@ -3,6 +3,7 @@
 	default_quest_shape: "square"
 	filename: "chapter_4"
 	group: "7A40A5A38565628B"
+	icon: "twilightforest:magic_map_focus"
 	id: "4EEF2950BB701FB4"
 	order_index: 3
 	quest_links: [ ]
@@ -20,6 +21,10 @@
 		}
 		{
 			dependencies: ["164F05DA136FCBCD"]
+			description: [
+				"{@pagebreak}"
+				"(new page placeholder text)"
+			]
 			id: "446131C372F742B6"
 			tasks: [{
 				id: "29188BBF8F840689"
@@ -35,7 +40,7 @@
 				"164F05DA136FCBCD"
 			]
 			id: "4F8D042D141BC06E"
-			shape: "diamond"
+			shape: "pentagon"
 			size: 8.0d
 			tasks: [{
 				id: "0902AB6ED5DD4641"

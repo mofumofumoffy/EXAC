@@ -3,14 +3,19 @@
 	default_quest_shape: "square"
 	filename: "chapter_3"
 	group: "7A40A5A38565628B"
+	icon: "minecraft:ender_eye"
 	id: "0DA2422C27D30A3B"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["23406E580D548059"]
+			dependencies: [
+				"23406E580D548059"
+				"7A547BA3F81FE689"
+			]
 			id: "44ED11C1CB014E7A"
 			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "328DE2DA1A2F4141"
 				item: "ticex:reconstruction_core"
@@ -38,6 +43,7 @@
 		{
 			id: "2AFF53A8C6992805"
 			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "2E276D42ED519299"
 				item: "draconicevolution:chaos_shard"
@@ -45,6 +51,67 @@
 			}]
 			x: 9.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["343BFFA323A3F003"]
+			id: "7A547BA3F81FE689"
+			tasks: [{
+				id: "44B8E8545FB999E3"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["66587A5C4BF93EDF"]
+			id: "343BFFA323A3F003"
+			tasks: [{
+				id: "7697F05142041A89"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DE8074DAB111BD7"]
+			id: "66587A5C4BF93EDF"
+			tasks: [{
+				id: "1AEF13AA0EE0E166"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			id: "3DE55D692169B37F"
+			tasks: [
+				{
+					id: "1AB06C11A20A8A8F"
+					item: "industrialforegoing:latex_processing_unit"
+					type: "item"
+				}
+				{
+					id: "41A9EC61C45ACB16"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3DE55D692169B37F"]
+			id: "6DE8074DAB111BD7"
+			tasks: [{
+				id: "0135DF06E9EB4FBA"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
 		}
 	]
 	title: "Chapter 3"

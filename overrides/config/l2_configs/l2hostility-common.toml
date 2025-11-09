@@ -93,7 +93,7 @@ enableStructureSpecificDatapack = true
 	maxMobLevel = 9999
 	#Difficulty increment takes this many kills of same level mob
 	#Range: 1 ~ 100000
-	killsPerLevel = 100
+	killsPerLevel = 30
 	#Decay in player difficulty on death
 	#Range: 0.0 ~ 2.0
 	playerDeathDecay = 0.8

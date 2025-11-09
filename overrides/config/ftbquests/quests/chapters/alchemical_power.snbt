@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alchemical_power"
+	group: "0FDA0084EBC3ED56"
+	icon: "alchemical_power:philosophers_stone"
+	id: "405DB101B9382317"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "764849F8A2041C9F"
+			size: 2.0d
+			tasks: [{
+				id: "463C9CCB4586818E"
+				item: "alchemical_power:t0_panakeia"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["764849F8A2041C9F"]
+			id: "6F3DF52E5209CB7C"
+			size: 2.0d
+			tasks: [{
+				id: "3A3BFDFB801F8F6D"
+				item: "alchemical_power:t1_panakeia"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6F3DF52E5209CB7C"]
+			id: "1EE161F9D406D404"
+			size: 2.0d
+			tasks: [{
+				id: "536D66F02008768E"
+				item: "alchemical_power:t2_panakeia"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["1EE161F9D406D404"]
+			id: "297632EF08C9FC30"
+			size: 2.0d
+			tasks: [{
+				id: "462D52782B6A030A"
+				item: "alchemical_power:t3_panakeia"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["297632EF08C9FC30"]
+			id: "6D347A2E04491BD3"
+			size: 2.0d
+			tasks: [{
+				id: "109640E6F4C0026F"
+				item: "alchemical_power:t4_panakeia"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6D347A2E04491BD3"]
+			id: "760066399AAAE589"
+			size: 2.0d
+			tasks: [{
+				id: "02B6A861BDD3BF5F"
+				item: "alchemical_power:t5_panakeia"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["760066399AAAE589"]
+			id: "17E8A7A4915E783C"
+			size: 2.0d
+			tasks: [{
+				id: "1181AADAF9D4D1CE"
+				item: "alchemical_power:t6_panakeia"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["17E8A7A4915E783C"]
+			id: "175EB518E798D99D"
+			size: 2.0d
+			tasks: [{
+				id: "0114BF38B83857D1"
+				item: "alchemical_power:t7_panakeia"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"297632EF08C9FC30"
+				"6D347A2E04491BD3"
+				"175EB518E798D99D"
+				"6F3DF52E5209CB7C"
+				"1EE161F9D406D404"
+				"760066399AAAE589"
+				"764849F8A2041C9F"
+				"17E8A7A4915E783C"
+			]
+			id: "33B23F88CB88F7A4"
+			shape: "octagon"
+			size: 4.0d
+			tasks: [{
+				id: "0B03E59BCAD7451A"
+				item: "alchemical_power:unite_alloy"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["10B293CD10F2E8D7"]
+			id: "21807E101D20EE3B"
+			shape: "diamond"
+			size: 8.0d
+			tasks: [{
+				id: "31671BA649D645EF"
+				item: "alchemical_power:singularity"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["175EB518E798D99D"]
+			id: "10B293CD10F2E8D7"
+			shape: "octagon"
+			size: 4.0d
+			tasks: [{
+				id: "3FC8DFFE5E13D197"
+				item: "alchemical_power:infinity_panakeia"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6F3DF52E5209CB7C"]
+			id: "5AB779861910B3BA"
+			tasks: [{
+				id: "6838686540EA5EB0"
+				item: {
+					Count: 1
+					id: "alchemical_power:alchemy_beginners_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5AB779861910B3BA"]
+			id: "0DE33DFB27136635"
+			tasks: [{
+				id: "75B476FBCC874171"
+				item: "alchemical_power:alchemy_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["297632EF08C9FC30"]
+			id: "44BC16F7262A23DC"
+			tasks: [{
+				id: "74163E3566E18982"
+				item: {
+					Count: 1
+					id: "alchemical_power:alchemy_intermediate_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["44BC16F7262A23DC"]
+			id: "5D8B1B621E58A02A"
+			tasks: [{
+				id: "4EF4E63458F9B0FE"
+				item: "alchemical_power:blank_rune"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1EE161F9D406D404"]
+			id: "65EFA272E0390C62"
+			tasks: [{
+				id: "21B8396D68410F51"
+				item: {
+					Count: 1
+					id: "alchemical_power:basic_engraving_ink"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["65EFA272E0390C62"]
+			id: "21991DDF3FC1104A"
+			tasks: [{
+				id: "5E810F0235DD6EFC"
+				item: "alchemical_power:alchemical_engraver"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5D8B1B621E58A02A"]
+			id: "274BBB0DE3CEF8C0"
+			tasks: [{
+				id: "4D8424136778C144"
+				item: "alchemical_power:rune_activator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5D8B1B621E58A02A"]
+			id: "1A03DAC7A76A232D"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "070C0C4926960A2D"
+				item: {
+					Count: 1
+					id: "alchemical_power:rune_of_equivalent"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["44BC16F7262A23DC"]
+			id: "577FD5ED8F7BF357"
+			tasks: [{
+				id: "7014AC32A68A0365"
+				item: "alchemical_power:hermes_workbench"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["760066399AAAE589"]
+			id: "3C1CDC2C01A283E6"
+			tasks: [{
+				id: "2BEAF19F7B91A228"
+				item: {
+					Count: 1
+					id: "alchemical_power:alchemy_experts_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3C1CDC2C01A283E6"]
+			id: "633744E4CD74B62C"
+			tasks: [{
+				id: "5139E36549669762"
+				item: "alchemical_power:transcendental_table"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["17E8A7A4915E783C"]
+			id: "0A64303B26A12831"
+			tasks: [{
+				id: "63A069AA81C7D608"
+				item: {
+					Count: 1
+					id: "alchemical_power:ultimate_alchemy_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -12.0d
+		}
+	]
+	title: "Alchemical Power"
+}

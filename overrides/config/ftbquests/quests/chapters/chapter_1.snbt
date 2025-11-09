@@ -23,12 +23,38 @@
 			tasks: [
 				{
 					id: "7EFFF417FFA8EC2C"
-					item: "minecraft:copper_ingot"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+					title: "Any #forge:ingots/copper"
 					type: "item"
 				}
 				{
 					id: "321BA1E596CC4CD4"
-					item: "mekanism:ingot_osmium"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/osmium"
+						}
+					}
+					title: "Any #forge:ingots/osmium"
+					type: "item"
+				}
+				{
+					id: "7F20B0EA5A4170A3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/iron"
+						}
+					}
+					title: "Any #forge:ingots/iron"
 					type: "item"
 				}
 			]
@@ -55,8 +81,8 @@
 				title: "Any #minecraft:logs"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.0d
+			x: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2B43698BAF7508F7"]
@@ -78,8 +104,8 @@
 				title: "Any #forge:normal_stone"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["48439B0CF97F6518"]
@@ -96,6 +122,11 @@
 					item: "irons_spellbooks:scroll_forge"
 					type: "item"
 				}
+				{
+					id: "0F0D83277A4B1CE9"
+					item: "irons_spellbooks:alchemist_cauldron"
+					type: "item"
+				}
 			]
 			shape: "circle"
 			tasks: [{
@@ -103,8 +134,8 @@
 				item: "irons_spellbooks:common_ink"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.5d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4F4A2D71F819359F"]
@@ -125,7 +156,7 @@
 				item: "mekanism:basic_universal_cable"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: -2.0d
 		}
 		{
@@ -136,8 +167,295 @@
 				item: "mekanism:precision_sawmill"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 8.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["118E1D6671165F58"]
+			id: "115FDF6629E8ED9F"
+			size: 3.0d
+			tasks: [{
+				id: "4DA0A44744FAFE99"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A9605570E0D5B17"]
+			id: "3F991FC5B71CF7D1"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "6EEEEC1428EEE226"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "1155E3DB4316F844"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "00DB59E77065121D"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3F991FC5B71CF7D1"]
+			id: "5EAC4A822551FE5A"
+			optional: true
+			rewards: [{
+				id: "52C806BC6F7DC4E6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							proudSoul: 0
+						}
+						"ngemextboxmod:gem_cap": {
+							Gems: [
+								{
+									Count: 0b
+									id: "minecraft:air"
+								}
+								{
+									Count: 0b
+									id: "minecraft:air"
+								}
+								{
+									Count: 0b
+									id: "minecraft:air"
+								}
+							]
+						}
+					}
+					id: "slashblade:slashblade_wood"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/wood.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 2.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 60
+							proudSoul: 0
+							translationKey: ""
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3D4BB8C77DB5D5FC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ticex:seram/slashblade"
+					}
+				}
+				title: "Any #ticex:seram/slashblade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["48439B0CF97F6518"]
+			id: "4381FBB5A526F631"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "143B9E394B1E1AE1"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "07249A4F59D1FE72"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F991FC5B71CF7D1"]
+			icon: {
+				Count: 1
+				id: "tconstruct:tinkers_anvil"
+				tag: {
+					texture: "tinkers_thinking:tinkers_bronze_block"
+				}
+			}
+			id: "5B42DFFA3B4C404B"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "05A046F4ADF4733F"
+				item: {
+					Count: 1
+					id: "tconstruct:tinkers_anvil"
+					tag: {
+						texture: "tinkers_thinking:tinkers_bronze_block"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3F991FC5B71CF7D1"]
+			id: "537A1C3C194B8DDD"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "0A55F2FB12072DAD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:modifiable/armor/helmets"
+						}
+					}
+					title: "Any #tconstruct:modifiable/armor/helmets"
+					type: "item"
+				}
+				{
+					id: "510EAB4BD916AB5E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:modifiable/armor/chestplate"
+						}
+					}
+					title: "Any #tconstruct:modifiable/armor/chestplate"
+					type: "item"
+				}
+				{
+					id: "59308703913CE940"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:modifiable/armor/leggings"
+						}
+					}
+					title: "Any #tconstruct:modifiable/armor/leggings"
+					type: "item"
+				}
+				{
+					id: "2ED1C495590B7F1D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:modifiable/armor/boots"
+						}
+					}
+					title: "Any #tconstruct:modifiable/armor/boots"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4381FBB5A526F631"]
+			id: "5E79BB49364472F0"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "3FD54AA7116B3053"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "5DC84ECBA91996D0"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "294BEEC34AA1F6D3"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "7FD689967A0C15CC"
+				item: "tconstruct:seared_melter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E79BB49364472F0"]
+			id: "701B4239DF0185B9"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "0DEFE022A15BDCB0"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
 		}
 	]
 	title: "Chapter 1"

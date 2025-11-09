@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hyperlink"
+	group: "0FDA0084EBC3ED56"
+	icon: "hyperdaimc:game_orb"
+	id: "750201E1A2F3AF9D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3DC4E247E5E0D685"
+			shape: "pentagon"
+			size: 8.0d
+			tasks: [{
+				id: "68D5A2F69243A63D"
+				item: "hyperdaimc:game_orb"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3DC4E247E5E0D685"]
+			dependency_requirement: "one_completed"
+			id: "43F6DC50311C8FEE"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "57BD07010593C87F"
+				item: "hyperdaimc:muteki"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3DC4E247E5E0D685"
+				"43F6DC50311C8FEE"
+			]
+			dependency_requirement: "one_completed"
+			id: "7616E9A23CD89219"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "3CBE80A2A6DE4DC0"
+				item: "hyperdaimc:novel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3DC4E247E5E0D685"
+				"7616E9A23CD89219"
+			]
+			dependency_requirement: "one_completed"
+			id: "4A8AB3C48B30ABE9"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "40626FB6927AF5C0"
+				item: "hyperdaimc:chronicle"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3DC4E247E5E0D685"
+				"01B7AFEA1DDE906B"
+				"43F6DC50311C8FEE"
+			]
+			dependency_requirement: "one_completed"
+			id: "26329898A0D60DA0"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "7AD96279F6512AD0"
+				item: "hyperdaimc:paradox"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3DC4E247E5E0D685"
+				"4A8AB3C48B30ABE9"
+			]
+			dependency_requirement: "one_completed"
+			id: "01B7AFEA1DDE906B"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "01D5CECFE99149DE"
+				item: "hyperdaimc:vrx"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.0d
+		}
+	]
+	title: "Hyperlink"
+}

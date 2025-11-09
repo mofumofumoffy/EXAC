@@ -10,5 +10,17 @@
     "attacker": "#enhancedai:config/can_attack_iron_golem",
     "victim": "minecraft:iron_golem",
     "chance": 0.5
+  },
+  {
+    "priority": 2,
+    "attacker": "minecraft:zombified_piglin",
+    "victim": "minecraft:player",
+    "chance": 1
+  },
+  {
+    "priority": 2,
+    "attacker": "minecraft:enderman",
+    "victim": "minecraft:player",
+    "chance": 1
   }
 ]

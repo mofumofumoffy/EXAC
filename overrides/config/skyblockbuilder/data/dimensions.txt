@@ -1,7 +1,7 @@
 minecraft:overworld
-minecraft:the_end
-fantasy_ending:faded_void
+twilightforest:twilight_forest
 javd:void
 minecraft:the_nether
-twilightforest:twilight_forest
+fantasy_ending:faded_void
+minecraft:the_end
 ae2:spatial_storage

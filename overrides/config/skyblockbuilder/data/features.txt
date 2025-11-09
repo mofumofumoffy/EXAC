@@ -360,6 +360,14 @@ minecraft:warped_forest_vegetation_bonemeal
 minecraft:warped_fungus
 minecraft:warped_fungus_planted
 minecraft:weeping_vines
+ngemextboxmod:aquamarine_ore
+ngemextboxmod:garnet_ore
+ngemextboxmod:moonstone_ore
+ngemextboxmod:peridot_ore
+ngemextboxmod:ruby_ore
+ngemextboxmod:sapphire_ore
+ngemextboxmod:topaz_ore
+ngemextboxmod:tourmaline_ore
 pneumaticcraft:oil_lake
 primalwinter:freeze_top_layer
 primalwinter:ice_patch
