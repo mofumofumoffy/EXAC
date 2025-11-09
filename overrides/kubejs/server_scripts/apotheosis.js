@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
             {"tag": "alchemical_power:alchemy_kit_tier1"}
         ],
         "output": {
-            "count": 1,
+            "count": 4,
             "item": "apotheosis:common_material"
         }
     })
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
             {"tag": "alchemical_power:alchemy_kit_tier1"}
         ],
         "output": {
-            "count": 1,
+            "count": 4,
             "item": "apotheosis:uncommon_material"
         }
     })
@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
             {"tag": "alchemical_power:alchemy_kit_tier2"}
         ],
         "output": {
-            "count": 1,
+            "count": 4,
             "item": "apotheosis:rare_material"
         }
     })
@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
             {"tag": "alchemical_power:alchemy_kit_tier3"}
         ],
         "output": {
-            "count": 1,
+            "count": 4,
             "item": "apotheosis:epic_material"
         }
     })
@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
             {"tag": "alchemical_power:alchemy_kit_tier3"}
         ],
         "output": {
-            "count": 1,
+            "count": 4,
             "item": "apotheosis:mythic_material"
         }
     })
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
             {"tag": "alchemical_power:alchemy_kit_tier4"}
         ],
         "output": {
-            "count": 1,
+            "count": 4,
             "item": "apotheosis:ancient_material"
         }
     })
